@@ -1,8 +1,6 @@
-package com.design.pattern.factory;
+package com.design.pattern.prototype;
 
-import com.design.pattern.Profession;
-
-public class Doctor implements Profession {
+public class Doctor extends Profession {
     @Override
     public void print() {
         System.out.println("Doctor Profession");
