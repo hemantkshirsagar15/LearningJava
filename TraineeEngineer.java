@@ -2,9 +2,9 @@ package com.design.pattern.abstractfactory;
 
 import com.design.pattern.Profession;
 
-public class Doctor implements Profession {
+public class TraineeEngineer implements Profession {
     @Override
     public void print() {
-        System.out.println("Doctor Profession");
+        System.out.println("Trainee Engineer Profession");
     }
 }
